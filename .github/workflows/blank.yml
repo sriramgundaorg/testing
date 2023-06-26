@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Skyline Dataminer Deploy Action
-        uses: SkylineCommunications/Skyline=DataMiner-Deploy-Action@v1.0.11
+        uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@v1.0.11
         with: 
           api-key: ${{secrets.DM_TEST_THREE}}
           solution-path: AutomationScript.sln
